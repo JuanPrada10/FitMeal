@@ -1,5 +1,10 @@
+import { RegisterForm } from "../organisms";
 const Register = () => {
-  return <div>Register</div>;
+  return (
+    <>
+      <RegisterForm></RegisterForm>
+    </>
+  );
 };
 
 export default Register;
